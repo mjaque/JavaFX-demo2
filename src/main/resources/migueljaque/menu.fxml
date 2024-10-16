@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+
+<MenuBar xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23" fx:controller="migueljaque.VistaPrincipal">
+  <menus>
+    <Menu mnemonicParsing="false" text="Ir A">
+      <items>
+            <MenuItem mnemonicParsing="false" text="Clientes"  onAction="#irAClientes"/>
+        <MenuItem mnemonicParsing="false" text="Productos" />
+            <MenuItem mnemonicParsing="false" text="Pedidos" />
+      </items>
+    </Menu>
+    <Menu mnemonicParsing="false" text="Clientes">
+      <items>
+        <MenuItem mnemonicParsing="false" text="Crear" />
+            <MenuItem mnemonicParsing="false" text="Buscar" />
+      </items>
+    </Menu>
+    <Menu mnemonicParsing="false" text="Help">
+      <items>
+        <MenuItem mnemonicParsing="false" text="About" />
+      </items>
+    </Menu>
+  </menus>
+</MenuBar>
